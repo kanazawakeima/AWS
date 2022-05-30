@@ -6,7 +6,7 @@ set :application, 'aws'
 
 # cloneするgitのレポジトリ
 # （xxxxxxxx：ユーザ名、yyyyyyyy：アプリケーション名）
-set :repo_url, 'https://https://github.com/kanazawakeima/AWS'
+set :repo_url, 'https://github.com/kanazawakeima/AWS'
 
 # deployするブランチ。デフォルトでmainを使用している場合、masterをmainに変更してください。
 set :branch, ENV['BRANCH'] || 'master'
